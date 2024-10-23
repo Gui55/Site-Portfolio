@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+    <title>Guilherme Medeiros Mergulhão</title>
+</head>
+<header>
+    <nav>
+        <div class="row">
+            <a href="/index.html" class="nav-btn-secondary">Home</a>
+            <a href="/sobre.html" class="nav-btn-secondary">Sobre</a>
+            <a href="/contato.html" class="nav-btn">Contato</a>
+            <a href="/obras.html" class="nav-btn-secondary">Obras</a>
+        </div>
+    </nav>
+</header>
+<body>
+    <div class="contact-forms">
+        <h3>Formulário para mandar uma mensagem</h3>
+        <form class="the-form" action="" method="post">
+            <p>
+                <label class="form-label" for="nome">Nome:</label>
+                <br>
+                <input class="form-textbox" type="text" name="nome" id="nome" placeholder="Digite seu nome aqui" maxlength="50">
+            </p>
+            <p>
+                <label class="form-label" for="email">E-mail:</label>
+                <br>
+                <input class="form-textbox" type="text" name="email" id="email" placeholder="Digite seu email aqui" maxlength="50">
+            </p>
+            <p>
+                <label class="form-label" for="subject">Assunto:</label>
+                <br>
+                <input class="form-textbox" type="text" name="subject" id="subject" placeholder="Digite o assunto da sua mensagem aqui" maxlength="50">
+            </p>
+            <p>
+                <label class="form-label" for="message">Mensagem:</label>
+                <br>
+                <textarea name="message" id="message" rows="6" cols="66"></textarea>
+            </p>
+            <p class="forms-btns">
+                <input class="first-btn" type="reset" name="limpar" value="Limpar">
+                <input class="first-btn" type="submit" name="enviar" value="Enviar">
+            </p>
+        </form>
+    </div>
+</body>
+</html>

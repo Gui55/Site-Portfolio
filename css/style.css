@@ -1,0 +1,173 @@
+body{
+    background-color: #1C0026;
+    font-family: 'Jura';
+    color: white;
+}
+
+.home-body {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    height: 100vh;           /* Ocupar a altura total da janela */
+    flex-direction: row;
+}
+
+.first-column {
+    width: 60%;
+    text-align: center;
+    padding-bottom: 15%;
+}
+
+.second-column{
+    width: 50%;
+    text-align: center;
+    padding-bottom: 15%;
+}
+
+.desc-text{
+    font-size: 28px;
+}
+
+.gui-image{
+    width: 440px;
+    height: 440px;
+    border-radius: 25px;
+}
+
+h1{
+    color: #0395FF;
+    font-size: 96px;
+}
+
+nav{
+    margin-left: 70px;
+}
+
+.nav-btn{
+    color: #0395FF;
+    text-decoration: none;
+    padding: 24px;
+    font-size: 48px;
+}
+
+.nav-btn:hover{
+    color: #0395FF;
+    text-decoration: none;
+}
+
+.nav-btn-secondary{
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    font-size: 48px;
+}
+
+.nav-btn-secondary:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-btn-secondary:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.about-content{
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    font-size: 48px;
+}
+
+table{
+    margin: 50px;
+    border-collapse: separate;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+th, td{
+    padding: 20px;
+}
+
+.not-last-column{
+    border-right: 1px solid white;
+}
+
+.not-last-row{
+    border-bottom: 1px solid white;
+}
+
+.contact-forms{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.the-form{
+    margin-top: 50px;
+}
+
+.form-label{
+    font-size: 24px;
+}
+
+.form-textbox{
+    height: 40px;
+    width: 550px;
+}
+
+.first-btn{
+    background-color: #0395FF;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    width: 150px;
+    height: 55px;
+    margin: 20px;
+}
+
+.forms-btns{
+    display: flex;
+    justify-content: center;
+}
+
+.works-content{
+    margin: 40px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.first-works-column{
+    width: 30%;
+    padding-bottom: 20%;
+}
+
+.works-second-column{
+    width: 70%;
+    padding-bottom: 20%;
+}
+
+.screenshots{
+    width: 350px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.blue-class{
+    color: #0395FF;
+}
+
+.works-desc{
+    font-size: 23px;
+}
